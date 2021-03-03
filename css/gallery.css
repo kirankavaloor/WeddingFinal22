@@ -1,0 +1,165 @@
+
+.gallery-section {
+    padding: 80px 0 80px;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.banner .content {
+  max-width: 550px;
+}
+.banner .content img {
+  max-width: 100%;
+  margin-bottom: 15px;
+  border: 10px solid pink;
+}
+
+.banner .content .centered i{
+  position: absolute;
+  cursor: pointer;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner .content .centered i:hover{
+  color: pink;
+}
+
+.trailer {
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+  background: rgba(0, 0, 0, 0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.trailer.active {
+  visibility: visible;
+  opacity: 1;
+}
+.trailer #mainvid{
+  position: relative;
+  max-width: 100%;
+  outline: none;
+}
+
+.trailer-close {
+  position:absolute;
+  cursor: pointer;
+  top: 30px;
+  right: 30px;
+  filter: invert(1);
+  max-width: 32px;
+}
+
+
+
+   .swiper {
+    background: #f3f2f1;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* background-color: #111; */
+    }
+
+.swiper-container
+ {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.swiper-slide 
+{
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+  /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0006); */
+}
+
+
+.banner-1{
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.banner-1 .content-1 {
+  max-width: 550px;
+}
+.banner-1 .content-1 img {
+  max-width: 100%;
+  margin-bottom: 15px;
+  border: 10px solid pink;
+}
+
+.banner-1 .content-1 .centered-1 i{
+  position: absolute;
+  cursor: pointer;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-1 .content-1 .centered-1 i:hover{
+  color: pink;
+}
+
+.trailer-1 {
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+  background: rgba(0, 0, 0, 0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.trailer-1.active {
+  visibility: visible;
+  opacity: 1;
+}
+.trailer-1 #mainvid-1{
+  position: relative;
+  max-width: 100%;
+  outline: none;
+}
+
+.trailer-close1 {
+  position:absolute;
+  cursor: pointer;
+  top: 30px;
+  right: 30px;
+  filter: invert(1);
+  max-width: 32px;
+}
