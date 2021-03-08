@@ -11,6 +11,12 @@ body {
     font-weight: 400;
     background-color: #f3f2f1;
 }
+
+.loadingbody {
+    overflow: hidden;
+    height: 100vh;
+  }
+
 *:not(i){
     font-family: 'Roboto', sans-serif;
 }

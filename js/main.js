@@ -3,7 +3,9 @@
 $(window).on("load",function(){
 
     
-    $(".loading").fadeOut(300);
+    $(".loading").fadeOut(300, function() {
+        $('body').removeClass('loadingbody');
+    });
     
     let slideIndex = $(".slide.active").index();
 
