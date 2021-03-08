@@ -49,7 +49,7 @@
         line-height: 30px;
         text-align: center;
         color: #fb839e;
-        background-color: blue transparent;
+        /* background-color: blue; */
         position:absolute;
         right: 0;
         top:0;
