@@ -41,8 +41,21 @@
         position: relative;
     }
 
-    .newnav-container-mobile a i{
-        font-size: 18px;
+    .newnav-container-mobile a span{
+        float: left;
+        width: 40px;
+        height: 100%;
+        line-height: 30px;
+        text-align: center;
+        color: #fb839e;
+        background-color: blue transparent;
+        position:absolute;
+        right: 0;
+        top:0;
+    }
+
+    .newnav-container-mobile a span i{
+        font-size: 15px;
     }
     
     .home-section .home-content h1 {
